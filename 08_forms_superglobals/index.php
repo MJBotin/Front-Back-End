@@ -26,4 +26,3 @@ $contacts = file_exists($contactsFile) ? json_decode(file_get_contents($contacts
     <?php endforeach; ?>
 </ul>
 </body>
-</html>
